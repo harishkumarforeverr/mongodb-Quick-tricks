@@ -1,0 +1,159 @@
+input : 
+
+ [
+        {
+            "_id": "62455e8805395754758e5374",
+            "test": {
+                "testName": "D-dimer",
+                "testLogo": "https://ub-dev-image-uploader.s3-ap-south-1.amazonaws.com/back_in-time.svg+xml",
+                "about": "<p>sffsaf</p>",
+                "gender": "female",
+                "ageGroup": "0-20",
+                "samples": [
+                    "Blood"
+                ],
+                "precations": [
+                    "dfef"
+                ],
+                "tests": [
+                    {
+                        "name": "sdsd",
+                        "value": "20",
+                        "min": "20",
+                        "max": "200",
+                        "refValue": "100",
+                        "_id": "624e91e3e3f5aa9c4c9b0621"
+                    }
+                ],
+                "price": 200,
+                "expectedResultTime": 12,
+                "isActive": false,
+                "isCompleted": true,
+                "userId": "6246ef13f6194d2e26b38e2a",
+                "_id": "6246f62ef6194d2e26b38ea4"
+            }
+        },
+        {
+            "_id": "62455e8805395754758e5374",
+            "test": {
+                "testName": "swab",
+                "samples": [],
+                "precations": [],
+                "tests": [],
+                "isActive": false,
+                "isCompleted": false,
+                "_id": "624ed10ce3f5aa9c4c9b0fbe"
+            }
+        },
+        {
+            "_id": "62455e8805395754758e5374",
+            "test": {
+                "testName": "fevre and plate ;;ets",
+                "testLogo": "https://ub-dev-image-uploader.s3-ap-south-1.amazonaws.com/1%20%E2%80%93%2010.jpeg",
+                "about": "<p>xhgubdfjhgjf fhushbfjjhhfm hhfndi&nbsp;</p>",
+                "gender": "female",
+                "ageGroup": "0-20",
+                "samples": [
+                    "Blood"
+                ],
+                "precations": [
+                    "kfut"
+                ],
+                "tests": [
+                    {
+                        "name": "ffff",
+                        "value": "200",
+                        "min": "20",
+                        "max": "200",
+                        "refValue": "100",
+                        "_id": "62500f1343598c961476f22a"
+                    }
+                ],
+                "price": 2000,
+                "expectedResultTime": 20,
+                "isActive": false,
+                "isCompleted": true,
+                "userId": "6246ef13f6194d2e26b38e2a",
+                "_id": "62500f1343598c961476f229"
+            }
+        },
+]
+
+
+
+
+
+if we want output : 
+
+{
+    "status": 200,
+    "data": [
+        {
+            "testName": "D-dimer",
+            "testLogo": "https://ub-dev-image-uploader.s3-ap-south-1.amazonaws.com/back_in-time.svg+xml",
+            "about": "<p>sffsaf</p>",
+            "gender": "female",
+            "ageGroup": "0-20",
+            "samples": [
+                "Blood"
+            ],
+            "precations": [
+                "dfef"
+            ],
+            "tests": [
+                {
+                    "name": "sdsd",
+                    "value": "20",
+                    "min": "20",
+                    "max": "200",
+                    "refValue": "100",
+                    "_id": "624e91e3e3f5aa9c4c9b0621"
+                }
+            ],
+            "price": 200,
+            "expectedResultTime": 12,
+            "isActive": false,
+            "isCompleted": true,
+            "userId": "6246ef13f6194d2e26b38e2a",
+            "_id": "6246f62ef6194d2e26b38ea4"
+        },
+        {
+            "testName": "swab",
+            "samples": [],
+            "precations": [],
+            "tests": [],
+            "isActive": false,
+            "isCompleted": false,
+            "_id": "624ed10ce3f5aa9c4c9b0fbe"
+        },
+        {
+            "testName": "fevre and plate ;;ets",
+            "testLogo": "https://ub-dev-image-uploader.s3-ap-south-1.amazonaws.com/1%20%E2%80%93%2010.jpeg",
+            "about": "<p>xhgubdfjhgjf fhushbfjjhhfm hhfndi&nbsp;</p>",
+            "gender": "female",
+            "ageGroup": "0-20",
+            "samples": [
+                "Blood"
+            ],
+            "precations": [
+                "kfut"
+            ],
+            "tests": [
+                {
+                    "name": "ffff",
+                    "value": "200",
+                    "min": "20",
+                    "max": "200",
+                    "refValue": "100",
+                    "_id": "62500f1343598c961476f22a"
+                }
+            ],
+            "price": 2000,
+            "expectedResultTime": 20,
+            "isActive": false,
+            "isCompleted": true,
+            "userId": "6246ef13f6194d2e26b38e2a",
+            "_id": "62500f1343598c961476f229"
+        },
+    ]
+}
