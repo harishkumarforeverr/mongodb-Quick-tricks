@@ -1,6 +1,15 @@
 links ==> https://mongoplayground.net/
 https://stackoverflow.com/questions/56051664/how-to-unwind-array-inside-object-in-mongodb
 
+
+Query in aggreation ==>    
+          {
+            $replaceRoot: {
+              newRoot: "$test",
+            },
+          },
+
+
 input : 
 
  [
